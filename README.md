@@ -1,6 +1,6 @@
 # Teste Funcional – Login SauceDemo
 
-Projeto de teste manual aplicando fundamentos do ISTQB CTFL.
+Projeto evolutivo de testes no SauceDemo iniciado com a funcionalidade de login aplicando fundamentos do ISTQB CTFL.
 
 ## Técnicas aplicadas
 - Particionamento de Equivalência
