@@ -1,0 +1,78 @@
+BUG 1
+
+Título
+Checkout finaliza mesmo sem produtos no carrinho
+
+Descrição
+O sistema permite finalizar o processo de checkout mesmo quando não existem produtos
+adicionados ao carrinho.
+Isso permite concluir uma compra sem selecionar itens.
+
+Passos para reproduzir
+1.​ Acessar o sistema Saucedemo
+2.​ Realizar login com usuário válido
+3.​ Acessar diretamente a página de checkout
+4.​ Preencher os campos obrigatórios
+5.​ Clicar em continuar e finalizar compra
+
+Evidência:
+https://drive.google.com/file/d/1g1ZXWKhWdLigERaoUMFRjTjEkOC_xIKA/view?usp=sharing
+
+Resultado esperado
+O sistema deveria impedir o checkout e informar que não existem produtos no carrinho.
+
+Resultado obtido
+O sistema permite concluir o checkout mesmo sem produtos adicionados.
+
+
+BUG 2
+
+Título
+Botão próximo ao filtro exibido na página de produtos não responde ao clique
+
+Descrição
+Na página de produtos existe um botão próximo ao filtro com ícone de seta para baixo que
+aparenta ser clicável, porém não executa nenhuma ação ao ser clicado.
+
+Passos para reproduzir
+1.​ Acessar o sistema Saucedemo
+2.​ Realizar login com usuário válido
+3.​ Navegar até a página de produtos
+4.​ Localizar o botão próximo ao filtro de ordenação
+5.​ Clicar no botão
+
+Evidência:
+https://drive.google.com/file/d/198jI7Y_IBLAsxNLCC9rAbGRRHH6wz4u_/view?usp=sharing
+
+Resultado esperado
+O botão deveria executar alguma ação ou abrir um menu de opções.
+
+Resultado obtido
+Nenhuma ação ocorre ao clicar no botão.
+
+
+BUG 3
+
+Título
+Sistema aceita valores inválidos nos campos do formulário de checkout
+
+Descrição
+Durante o processo de checkout, o sistema aceita valores inconsistentes nos campos First Name,
+Last Name e Zip/Postal Code sem realizar validação.
+
+Passos para reproduzir
+1.​ Acessar o sistema Saucedemo
+2.​ Realizar login
+3.​ Adicionar produto ao carrinho
+4.​ Acessar checkout
+5.​ Preencher os campos com valores incorretos ou trocados
+6.​ Clicar em continuar
+
+Evidência:
+https://drive.google.com/file/d/13YbxCN_mevLYbAsKiQ7sJ2HX0oFdOaD8/view?usp=sharing
+
+Resultado esperado
+O sistema deveria validar os campos e impedir dados inconsistentes.
+
+Resultado obtido
+O sistema permite continuar o processo normalmente.
