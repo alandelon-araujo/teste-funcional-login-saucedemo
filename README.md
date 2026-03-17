@@ -1,15 +1,25 @@
-# Teste Funcional – Login SauceDemo
+💻 Projeto de Testes QA – SauceDemo
 
-Projeto evolutivo de testes no SauceDemo iniciado com a funcionalidade de login aplicando fundamentos do ISTQB CTFL.
+Testes funcionais
 
-## Técnicas aplicadas
-- Particionamento de Equivalência
+Testes exploratórios
 
-## Estrutura
-- Plano de Teste
-- Casos de Teste
-- Evidências
-- Relatório Final
+📄 Artefatos de teste
 
-## Objetivo
-Praticar documentação e execução de testes funcionais.
+Casos de teste
+
+Plano de testes
+
+Relatórios de execução
+
+Bug reports com evidências
+
+🛠️ Habilidades aplicadas
+
+Criação de casos de teste
+
+Identificação e documentação de bugs
+
+Execução de testes manuais
+
+Análise de comportamento do sistema
